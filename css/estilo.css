@@ -1,0 +1,585 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Loved+by+the+King&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+
+    background-color: rgba(15, 0, 8, 0.89);
+    margin: 0px;
+    overflow-x: hidden;
+    
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Kaushan Script', cursive;
+}
+p,a,li{
+    font-family: 'Loved by the King', cursive;
+}
+.navbar{
+    background-color: #212529;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    margin: 0;
+    padding-top: 0;
+    left: 0;
+    
+    
+}
+
+.logo{
+    width: 45px;
+}
+
+.logo:hover{
+    
+    transform: scale(1.1);
+    transition: all ease 1.5s;
+    cursor: pointer;
+    
+}
+
+
+.navbar-nav{
+    margin-top: 0px;
+}
+.navbar-nav li a{
+    color: #E4E3E3 !important;
+    font-size: 30px;
+}
+
+.collapse{
+    justify-content: flex-end;
+}
+
+.nav-item:hover{
+    background-color: #319fa3;
+}
+
+
+
+/*BANNER*/
+.d-block{
+    margin-top: 65px;
+}
+
+
+
+
+
+/*PERFIL*/
+
+
+#perfil .conteiner2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    padding: 0 20px;
+    background: #319fa3;
+    
+}
+
+#perfil .card-container{
+    display: flex;
+    width: 700px;
+    height: auto;
+    background: #000000;
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px 2px rgba(2, 2, 2, 0.3);
+
+}
+#perfil .card-body p{
+    font-size: 20px;
+ 
+
+}
+#perfil .card-img{
+    width: 100%;
+    height: 75%;
+    margin-top: 50px;
+    border-radius:  0 50%;
+}
+
+#perfil .card-text{
+    text-align: justify;
+}
+
+
+
+
+h4{
+    
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-width: 7px 0;
+    font-size: 30px;
+    margin: 0px 70px;
+}
+
+h5{
+   
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-width: 7px 0;
+    font-size: 30px;
+    margin: 0px 70px;
+    
+
+}
+
+/*Estudios*/
+
+#estudios{
+    
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background: #000000;
+    padding-top: 30px;
+    color: #E4E3E3;
+}
+
+#estudios .card-item-estudios{
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    
+}
+
+#estudios .card-item-estudios p{
+    font-size: 20px;
+ 
+}
+
+#estudios .card-item-estudios img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*Portafolio*/
+
+#portafolio{
+    
+    padding: 30px 0;
+    background: #319fa3;
+    color: #000000;
+}
+
+#portafolio .card{
+  background: #319fa3;
+  border-radius: 4px;
+  width: 400px;
+  height: 300ox;
+  margin: 30px 0;
+}
+#portafolio .imagen-portafolio2{
+    width: 370px;
+    height: 270px;
+    margin:  5px;
+  
+}
+
+#portafolio .imagen-portafolio2 img{
+    width: 100%;
+    height: 100%;
+  
+}
+
+
+
+#portafolio .imagen-portafolio3{
+    width: 400px;
+    height: 275px;
+    padding-top: 5px;
+
+}
+#portafolio .imagen-portafolio3 img{
+    width: 100%;
+    height: 100%;
+
+}
+#portafolio .video{
+    padding-top: 60px
+  
+}
+
+/*Hobbies*/
+
+#hobbies{
+    background: #000000;
+    color: #e4e3e3;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+#hobbies .container5{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 0;
+}
+
+#hobbies .container5 .card3{
+    position: relative;
+    max-width:300px;
+    height: 200px;
+    background: #319fa3;
+    margin: 10px 7px;
+    padding: 10px 7px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0,5);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 40% 0;
+}
+#hobbies .container5 .card3:hover{
+    height: 260px;
+  
+}
+
+#hobbies .container5 .card3 .imgBx{
+    position: relative;
+    width: 300px;
+    height: 230px;
+    top: -87px;
+    left: -7px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0,2);
+    
+    
+}
+
+#hobbies .container5 .card3 .imgBx img{
+    max-width: 100%;
+    border-radius: 0 40%;
+}
+
+#hobbies .container5 .card3 .content{
+    position: relative;
+    margin-top: -10px;
+    padding-bottom: 50px;
+    text-align: left;
+    color: #e4e3e3;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+#hobbies .container5 .card3:hover .content{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -5;
+    transition-delay: 0.3s;
+}
+
+
+#hobbies .container5 .card3 .content h2{
+    font-size: 20px;
+}
+
+
+
+
+/*Footer*/
+
+
+
+footer{
+    width: 100%;
+    background: #212529;
+    color: #e4e3e3;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+} 
+
+.column1{
+    max-width: 400px;
+}
+
+
+
+.column1 img{
+    width: 250px;
+    margin-top: 0px;
+    border-radius: 3px;
+
+}
+
+.column2{
+    max-width: 400px;
+    
+}
+
+.column2 h1{
+    font-size: 22px;
+}
+
+.column2 .row{
+    margin-top: 20px;
+    display: flex;
+    
+}
+.fila img{
+    width: 40px;
+    height: 40px;
+}
+
+.column2 a{
+    color: #e4e3e3;
+    text-decoration: none;
+}
+.column3{
+    max-width: 400px;
+}
+
+.column3 h1{
+    font-size: 22px;
+}
+.row2{
+    margin-top: 20px;
+}
+
+.row2 img{
+    width: 40px;
+    height: 40px;
+}
+
+.column3 a{
+    color: #e4e3e3;
+    text-decoration: none;
+}
+
+.container-footer{
+    width: 100%;
+    background: #000;
+    
+
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+
+}
+
+.copyright{
+    color: #e4e3e3;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*RESPONSIVE TABLET*/
+
+
+@media screen and (max-width:1024px) and (min-width: 757px){
+    /*PERFIL*/
+    #perfil .conteiner2{
+       
+        height: 45vh;  
+    }
+    #habilidades{
+        min-height: 40vh;
+    }
+    
+    
+}
+
+    
+
+
+@media screen and (max-width:1024px) and (min-width: 200px){
+
+    
+     
+    /*HABILIDADES*/
+
+    #habilidades .containerh{
+        flex-wrap: wrap;
+    }
+
+    #habilidades .containerh .card2{
+        margin: 10px 8px;
+    }
+    #portafolio .contenedor .caja{
+        
+        height: 150px;
+    }
+
+     /*Hobbies*/
+     #hobbies .container5{
+        flex-wrap: wrap;
+    }
+    #hobbies .container5{
+        padding-top: 35px;
+    }
+    #hobbies .container5 .card3 {
+
+        margin-top: 100px;
+        
+    }
+
+    /*Footer*/
+    #contacto .container-body{
+        flex-wrap: wrap;
+     }
+     
+     #contacto .column1 img{
+          justify-content: center;
+ 
+     }
+     
+     #contacto .column2, .column3{
+         margin-top: 40px;
+     }
+}
+
+
+
+
+
+
+/*RESPONSIVE MOVIL*/
+
+@media screen and (max-width:640px) and (min-width: 200px){
+
+    /*TITULOS*/
+    
+    
+    /*PERFIL*/
+
+    .navbar-toggler{
+        margin: 0px 50px;
+    }
+
+    #perfil .conteiner2{
+       
+        height: 130vh;  
+    }
+
+    #perfil .card-container{
+        display: block;
+        width: 350px;
+        
+    }
+    #perfil .header{
+        padding: 20px 0px 5px 0px;
+        border: none;
+        background: #0f0008;
+    }
+    #perfil .descripcion{
+        padding: 5px 20px 20px 20px;
+        background: transparent;
+    }
+    #perfil .header a{
+        background: #0f0008;
+    }
+   
+    /*Estudios*/
+
+    #estudios{
+        
+       padding-bottom: 250px;
+    }
+
+    #estudios .card-item-estudio p{
+        padding-bottom: 30px;
+        
+    }
+
+    #estudios .card-item-estudios img{
+        
+        width: 80%;
+        height: 80%;
+    }
+
+   
+
+  
+
+    /*Portafolio*/
+
+    #portafolio ul{
+        margin: 40px 20px;
+        
+    }
+
+    #portafolio ul li{
+        margin-right: 7px;
+    }
+    #portafolio .contenedor .caja{
+        width: 45%;
+        height: 85px;
+    }
+
+    
+  
+}
+
+
+
+@media screen and (max-width:350px) and (min-width: 100px){
+    #estudios .card-item-estudios{
+        padding-bottom: 80px;
+    }
+        
+    
+    #perfil .foto{
+        width: 150px;
+        height: 150px;
+    
+    }
+    #perfil .conteiner2{
+       
+        height: 150vh;  
+    }
+    #perfil .descripcion p{
+        font-size: 15px;
+    }
+    #perfil .header h2{
+        font-size: 15px;
+    }
+
+}
